@@ -2,5 +2,5 @@
 
 Todo
 ・EDA周りを整える
-・LightGBMで予LSTM測
-・
+・LightGBMで予測
+・LSTM
