@@ -13,7 +13,7 @@
 ・Loss を自作する(RMSSEをLossとした学習を行う)。<br />
 <br />
 ※ 参考 RMSSE(Root Mean Squared Scaled Error)の式<br />
-$RMSSE = \sqrt{\frac{1}{h}\frac{\sum_{t=n+1}^{n+h}(Y_t -\hat{Y}_t)^2}{\frac{1}{n-1}{\sum_{t=2}^{n}(Y_t - Y_{t-1})^2}}}$<br />
+$$RMSSE = \sqrt{\frac{1}{h}\frac{\sum_{t=n+1}^{n+h}(Y_t -\hat{Y}_t)^2}{\frac{1}{n-1}{\sum_{t=2}^{n}(Y_t - Y_{t-1})^2}}}$$<br />
 <br />
 h: 予測のステップ数(今回では28日分=28step)<br />
 n: 観測されている(入力に使える？)ステップ数(今回は1969日分＝1969step??)<br />
